@@ -1,0 +1,68 @@
+.App {
+  margin-top: 10rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.issue-card{
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  padding: 0.5rem;
+  background-color: whitesmoke;
+}
+
+.info{
+  color: gray;
+}
+
+.title{
+  display: inline;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.comments{
+  float: right;
+  margin-right: 2rem;
+}
+
+.tags-div{
+  display: inline;
+}
+
+.tag{
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.issue-bug-report{
+  background: orange;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+}
+
+.needs-triage{
+  background: red;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+}
+
+.issue-needs-investigation{
+  background: purple;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+  color: white;
+}
+
+.issue-proposal{
+  background: rgb(255, 208, 0);
+  border-radius: 10px;
+  padding: 0 0.5rem;
+}
