@@ -1,0 +1,18 @@
+.weather-div{
+  display:flex;
+}
+
+.weather-card{
+  margin: 1rem;
+  text-align: center;
+}
+
+.weather-card:first-child{
+  border: 1px solid lightgray;
+  padding: 0 1.5rem;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+}
