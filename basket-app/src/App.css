@@ -1,0 +1,46 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+.search{
+  display: block;
+  margin: 5rem auto 1rem auto;
+}
+
+li{
+  list-style-type: none;
+}
+
+ul{
+  padding: 0;
+  text-align: left;
+}
+
+.groceries-class{
+  margin-right: 10rem;
+}
+
+.trash{
+  width: fit-content;
+  border: none;
+  margin-left: 2rem;
+}
+
+.basket-class p{
+  display: inline;
+}
+
+.icon{
+  margin-right: 0.5rem;
+}
+
+button{
+  text-align: left;
+  width: 10rem;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+}
+
